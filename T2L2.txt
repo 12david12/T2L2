@@ -1,0 +1,27 @@
+1.
+mkdir T2L2
+2.
+cd T2L2
+3.
+touch demo.txt
+cat > demo.txt
+(texto)
+4.
+cat demo.txt | grep esta
+5.
+cat demo.txt | grep -ri línia
+6.
+mkdir prova
+cd..
+cp ./T2L2/demo.txt ./T2L2/prova/demo.txt
+grep -rw línia ./Documents/T2L2
+7.
+grep línia demo.txt | grep blanc
+8.
+grep Línia demo.txt | grep Totes
+9.
+grep -n línia
+grep -c línia
+10.
+grep -rw línia ./Documents/T2L2
+
